@@ -1,9 +1,9 @@
 import ftplib
 import os
 from datetime import datetime
-FTP_HOST = "ftp.smoff.ru"
-FTP_USER = "FTP-SemenovI2"
-FTP_PASS = "VYX9tGnV"
+FTP_HOST = ""
+FTP_USER = ""
+FTP_PASS = ""
 def get_size_format(n, suffix="B"):
     for unit in ["", "K", "M", "G", "T", "P"]:
         if n < 1024:
